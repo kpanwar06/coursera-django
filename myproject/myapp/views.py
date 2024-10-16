@@ -1,7 +1,6 @@
 from django.shortcuts import render
-
-# Create your views here.
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpResponsePermanentRedirect 
+from django.urls import reverse 
 
 def info(request):
     path=request.path
@@ -38,3 +37,6 @@ def getform(request):
         id=request.POST['id'] 
         name=request.POST['name'] 
     return HttpResponse("Name:{},Id:{}".format(name, id)) 
+
+def new_view(request):
+    return HttpResponsePermanentRedirect (reverse('myapp/showform'))
