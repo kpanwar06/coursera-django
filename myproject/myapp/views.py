@@ -39,4 +39,4 @@ def getform(request):
     return HttpResponse("Name:{},Id:{}".format(name, id)) 
 
 def new_view(request):
-    return HttpResponsePermanentRedirect (reverse('myapp/showform'))
+    return HttpResponsePermanentRedirect(reverse('myapp/showform'))
