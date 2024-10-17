@@ -1,0 +1,11 @@
+HELP.md
+Thumbs.db
+.DS_Store
+*.exe
+myproject/myapp/ipynb_checkpoints
+myproject/myapp/.ipynb_checkpoints
+myproject/myapp/__pycache__
+myproject/myproject/ipynb_checkpoints
+myproject/myproject/.ipynb_checkpoints
+myproject/myproject/__pycache__
+
