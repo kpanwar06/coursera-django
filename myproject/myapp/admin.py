@@ -1,3 +1,3 @@
 from django.contrib import admin
-
-# Register your models here.
+from myapp.models import cake_order
+admin.site.register(cake_order)
