@@ -7,5 +7,5 @@ urlpatterns = [
     path('inside_info/',views.inside_info),
     path('cake_order_enter/',views.cake_order_enter),
     path('cake_order_details/',views.cake_order_details),
-    path('',views.home),
+    path('',views.home,name="home"),
 ]

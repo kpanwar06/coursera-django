@@ -1,0 +1,10 @@
+{% load static %}
+{% load url from django.urls %}
+<header>
+    <img src='{% static "logo.jpg"%}' />
+</header>
+    <nav>
+      <ul>
+        <li><a href="{% url 'home' %}">Home</a></li>
+      </ul>
+    </nav>
