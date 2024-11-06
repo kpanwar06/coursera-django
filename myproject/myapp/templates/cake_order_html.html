@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title >Cake_Order</title>
+	{% include "_header.html" %}
 	<p style="background-color:aliceblue;color:rgb(28, 79, 110)" >Enter the details for your order</p>
+</head>
+<body>
 	
 	<form action="/cake_order_details/" method="post">
 		{% csrf_token %}
 		{{form}}
 		<input type="submit" value="Submit">
 	</form>
-</head>
-<body>
-	
 </body>
 </html>

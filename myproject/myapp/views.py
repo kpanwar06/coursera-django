@@ -4,8 +4,7 @@ from myapp.forms import cake_order_form
 
 
 def home(request):
-    return HttpResponse(f'''<h1><i><b><p style="background-color:aliceblue;color:rgb(28, 79, 110)">
-                        Welcome to Sweet Shop!!</p></b></i></h1>''')
+    return render(request,"home.html")
 
 def inside_info(request):
     path=request.path
