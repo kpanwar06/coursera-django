@@ -7,20 +7,9 @@ def home(request):
     return render(request,"home.html")
 
 def inside_info(request):
-    path=request.path
-    scheme=request.scheme
-    method=request.method
-    path_info=request.path_info
-    response=HttpResponse()
-    response.headers['Age:']=20
-    msg=f'''<h1><p style="background-color:aliceblue;color:rgb(28, 79, 110)" >Path Info</p></h1>
-<br><h2>Path:{path}
-<br>Scheme:{scheme}
-<br>Method:{method}
-<br>Path Info:{path_info}
-<br>Responde Headers:{response.headers}</h2>
-'''
-    return HttpResponse(msg)
+    context={"path":request.path,"scheme":request.scheme,"method":request.method,
+             "response":HttpResponse()}
+    return render(request,"inside_info.html",context)
 
 def cake_order_enter(request):
 	
