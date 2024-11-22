@@ -2,17 +2,17 @@
 ![Sweet Treats](myproject/myapp/static/logo.jpg)
 - Site to order cakes.
 - [Link to models.py(myapp)](myproject/myapp/models.py)
-Home page
-![Home Page](myproject/myapp/static/home_page.png)
+##Home page
+<img src="myproject/myapp/static/home_page.png" width=80% height=80% style="border:1px solid black;">
 
-Order page
-![Order Page](myproject/myapp/static/order_page.png)
+##Order page
+<img src="myproject/myapp/static/order_page.png" width=80% height=80% style="border:1px solid black;">
 
-Order details page
-![Home Page](myproject/myapp/static/order_details.png)
+##Order details page
+<img src="myproject/myapp/static/order_details.png" width=80% height=80% style="border:1px solid black;">
 
-Database for storing orders
-![Database](myproject/myapp/static/order_database.png)
+##Database for storing orders
+<img src="myproject/myapp/static/order_database.png" width=80% height=80% style="border:1px solid black;">
 
 
 
