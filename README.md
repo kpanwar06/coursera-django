@@ -12,7 +12,7 @@
 <img src="myproject/myapp/static/order_details.png" width=80% height=80% style="border:3px solid black">
 
 - Database for storing orders
-<img src="myproject/myapp/static/order_database.png" width=80% height=80% style="border:3px solid black"/>
+<kbd><img src="myproject/myapp/static/order_database.png" width=80% height=80% style="border:3px solid black"></kbd>
 
 
 
